@@ -1,0 +1,140 @@
+.table-list {
+	margin-top: 40px;
+}
+.table-list .table-list-item {
+	max-width: 400px;
+	border: 1px solid transparent;
+	/*padding: 5px;*/
+	/*margin: 6px;*/
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+}
+.table-list .table-list-item.active,
+.table-list .table-list-item:active {
+	outline: 5px solid rgba(0, 0, 0, 0.52);
+}
+.table-list .table-list-item img {
+	max-width: 400px;
+	height: auto;
+}
+.table-list .table-list-item .preset-select-btn {
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	font-size: 14px;
+	line-height: 35px;
+}
+.table-list .table-list-item.active .preset-select-btn,
+.table-list .table-list-item:active .preset-select-btn {
+	color: #000;
+	background-color: #4ae8ea;
+}
+#ptsPagesTbl_cb {
+	width: 23px !important;
+}
+.ptsTableSettingsShell {
+	padding: 10px;
+	margin: 0 0 20px 0;
+	/*background-color: rgba(45, 34, 52, 0.96);
+	color: #fff;*/
+}
+/*.ptsTableSettingsShell .button {
+	color: #fff;
+	border-color: #fff !important;
+}*/
+.ptsTableSetting {
+	padding: 7px;
+	float: left;
+	min-height: 71px;
+}
+.ptsTableSetting,
+.ptsTableSetting p {
+	font-size: 15px;
+}
+.ptsTableSetting .fa-question.supsystic-tooltip {
+	margin-left: 10px;
+}
+#ptsTableEditableLabelShell {
+	cursor: pointer;
+	color: #000;
+}
+#ptsTableEditableLabelTxt {
+	display: none;
+}
+#ptsTableMainControllsShell .ptsTableSaveBtn {
+	margin-right: 10px;
+}
+.ptsTableSettingsShell .ptsTableSetting {
+	    position: relative;
+}
+.ptsHeaderColorPicker {
+	position: absolute;
+    right: 0;
+    top: 70%;
+    z-index: 999;
+}
+.ptsHeaderColorPicker.hidden {
+	display: none;
+}
+.ptsSettingsContent > div{
+	display: none;
+}
+.ptsSettingsContent div.active{
+	display: block;
+}
+.icheckbox_minimal, .iradio_minimal{
+	display: inline-block!important;
+}
+#containerWrapper .chosen-container{
+	width:120px!important;
+}
+.ptsSettingsTabs{
+	margin-bottom: 20px;
+}
+.field-options-list .option{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-bottom: 5px;
+}
+.field-options-list .option div{
+	padding-left: 15px;
+}
+
+.field-options-list .icheckbox_minimal{
+	display: inline-flex!important;
+}
+
+#ptsCanvas .ptsBlock  .ptsSwitchWrapper{
+	margin-bottom: 50px!important;
+}
+.ptsTooltipEditWnd textarea{
+	color:black!important;
+}
+.ptsCellEditBtnsShell *{
+	color:white!important;
+}
+.ptsToggle .ptsEl{
+	visibility: visible !important;
+}
+.ptsSwitchWrapper input[type=radio]:checked:before{
+	display: none;
+}
+.ptsSwitchWrapper input[type=radio]{
+	-webkit-appearance: radio!important;
+}
+.ptsActivePicker{
+	visibility: visible;
+	opacity: 1;
+}
+.ptsActivePicker [data-sub-panel="schedule"]{
+	display: block!important;
+}
+.ptsActiveSchedule{
+	display: block!important;
+}

@@ -1,0 +1,75 @@
+/* iCheck plugin Minimal skin, black
+----------------------------------- */
+.ptsElMenu .icheckbox_minimal,
+.ptsElMenu .iradio_minimal,
+.mce-container-body .mce-container .icheckbox_minimal,
+.mce-container-body .mce-container .iradio_minimal {
+     display: inline-block;
+    *display: inline;
+    vertical-align: middle !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 18px !important;
+    height: 18px !important;
+	background-image: url(images/minimal.png) !important;
+	background-repeat: no-repeat !important;
+    border: none !important;
+    cursor: pointer;
+}
+
+.ptsElMenu .icheckbox_minimal,
+.mce-container-body .mce-container .icheckbox_minimal {
+    background-position: 0 0;
+}
+    .ptsElMenu .icheckbox_minimal.hover,
+	.mce-container-body .mce-container .icheckbox_minimal.hover
+	{
+        background-position: -20px 0;
+    }
+    .ptsElMenu .icheckbox_minimal.checked,
+	.mce-container-body .mce-container .icheckbox_minimal.checked  {
+        background-position: -40px 0;
+    }
+    .ptsElMenu .icheckbox_minimal.disabled,
+	.mce-container-body .mce-container .icheckbox_minimal.disabled  {
+        background-position: -60px 0;
+        cursor: default;
+    }
+    .ptsElMenu .icheckbox_minimal.checked.disabled,
+	.mce-container-body .mce-container .icheckbox_minimal.checked.disabled {
+        background-position: -80px 0;
+    }
+
+.ptsElMenu .iradio_minimal,
+.mce-container-body .mce-container .iradio_minimal {
+    background-position: -100px 0;
+}
+    .ptsElMenu .iradio_minimal.hover,
+	.mce-container-body .mce-container .iradio_minimal.hover {
+        background-position: -120px 0;
+    }
+    .ptsElMenu .iradio_minimal.checked,
+	.mce-container-body .mce-container .iradio_minimal.checked {
+        background-position: -140px 0;
+    }
+    .ptsElMenu .iradio_minimal.disabled,
+	.mce-container-body .mce-container .iradio_minimal.disabled {
+        background-position: -160px 0;
+        cursor: default;
+    }
+    .ptsElMenu .iradio_minimal.checked.disabled,
+	.mce-container-body .mce-container .iradio_minimal.checked.disabled {
+        background-position: -180px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .ptsElMenu .icheckbox_minimal,
+    .ptsElMenu .iradio_minimal,
+	.mce-container-body .mce-container .icheckbox_minimal,
+	.mce-container-body .mce-container .iradio_minimal {
+        background-image: url("images/minimal@2x.png");
+        -webkit-background-size: 200px 20px;
+        background-size: 200px 20px;
+    }
+}

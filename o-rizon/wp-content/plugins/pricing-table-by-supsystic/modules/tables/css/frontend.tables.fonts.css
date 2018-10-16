@@ -1,0 +1,33 @@
+/*Import fonts*/
+@font-face{
+	font-family: 'PT Sans';
+	src: url("fonts/PT_Sans-Web-Regular.ttf");
+}
+@font-face {
+	font-family: 'Playfair Display SC';
+	src: url("fonts/PlayfairDisplaySC-Regular.ttf");
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url("fonts/Raleway-Regular.ttf");
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url("fonts/Raleway-Regular.ttf");
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url("fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url("fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: 'Lato';
+    src: url("fonts/Lato-Light.ttf");
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url("fonts/LibreBaskerville-Regular.ttf");
+}

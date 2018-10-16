@@ -1,0 +1,6 @@
+<?php exit('Access denied'); __halt_compiler(); ?>
+******************************************************************
+This file is used by the Wordfence Web Application Firewall. Read 
+more at https://docs.wordfence.com/en/Web_Application_Firewall_FAQ
+******************************************************************
+a:19:{s:6:"apiKey";s:128:"ec0ec684ec82222f685102837cede6fb9ba71ad8ee82ea71cf284d283cc0fd9206973efdbdefab14b0a58a992fa82fc90ebc08597ff06923d1287e5c68a848fb";s:6:"isPaid";b:0;s:7:"siteURL";s:23:"http://localhost/orizon";s:7:"homeURL";s:23:"http://localhost/orizon";s:14:"whitelistedIPs";s:0:"";s:9:"howGetIPs";s:0:"";s:25:"howGetIPs_trusted_proxies";s:0:"";s:13:"pluginABSPATH";s:30:"D:\Programmes\Wamp\www\orizon/";s:11:"other_WFNet";b:1;s:9:"serverIPs";s:20:"["89.2.10.28","::1"]";s:15:"blockCustomText";s:0:"";s:13:"timeoffset_wf";s:1:"2";s:23:"advancedBlockingEnabled";s:1:"1";s:21:"betaThreatDefenseFeed";b:0;s:20:"disableWAFIPBlocking";s:1:"0";s:13:"patternBlocks";s:2:"[]";s:13:"countryBlocks";s:153:"{"blocks":[],"action":"block","loggedInBlocked":"","bypassRedirURL":"","bypassRedirDest":"","bypassViewURL":"","redirURL":"","cookieVal":"5b35f433885bb"}";s:11:"otherBlocks";s:33:"{"blockedTime":"300","blocks":[]}";s:8:"lockouts";s:37:"{"lockedOutTime":14400,"lockouts":[]}";}

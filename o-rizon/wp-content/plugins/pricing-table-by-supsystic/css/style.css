@@ -1,0 +1,9 @@
+.ptsErrorMsg {
+    color: #fa4e7f;
+}
+.ptsSuccessMsg {
+    color: #4ae8ea;
+}
+.ptsInputError {
+    border: 1px #fa4e7f solid !important;
+}

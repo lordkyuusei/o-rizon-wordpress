@@ -1,0 +1,317 @@
+/*Blocks settings*/
+.ptsBlock {
+	background-color: transparent;
+	position: relative;
+	line-height: normal;
+}
+.ptsBlock, .ptsBlock * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	line-height: initial;
+	margin: initial;
+	padding: initial;
+	vertical-align: initial;
+	outline: initial;
+	text-align: inherit;
+}
+.ptsBlock p {
+	text-align: inherit;
+}
+/*#wpadminbar {
+	display: none;
+}*/
+/*bootstrap spin class*/
+.glyphicon-spin {
+	-webkit-animation: spin 1000ms infinite linear;
+	animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+.ptsShowSmooth {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s linear 0.2s, opacity 0.2s linear;
+}
+.ptsShowSmooth.active {
+	visibility: visible;
+	opacity: 1;
+	transition-delay: 0s;
+	z-index: 10000;
+}
+/*Block Elements*/
+.ptsEl {
+	display: inline-block;
+    min-width: 15px;
+    position: relative;
+}
+.ptsElImg {
+	display: inline-block;
+}
+.ptsElImg img {
+	width: 100%;	/*responsive images*/
+	height: auto;
+}
+.ptsElInput,
+.ptsInputShell {
+	display: inline-block;
+}
+.ptsElOverlay {
+	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	top: 0;
+  	left: 0;
+  	display: none;
+}
+.ptsCol {
+	float: left;
+}
+.ptsCell {
+	position: relative;
+}
+/*tables data aligment*/
+.ptsBlockContent .ptsCol .ptsColHeader,
+.ptsBlockContent .ptsCol .ptsColDesc,
+.ptsBlockContent .ptsCol .ptsRows .ptsCell,
+.ptsBlockContent .ptsCol .ptsColFooter {
+	text-align: center;
+}
+.ptsBlock.ptsAlign_left p,
+.ptsBlock.ptsAlign_left .ptsBlockContent .ptsCol .ptsColHeader,
+.ptsBlock.ptsAlign_left .ptsBlockContent .ptsCol .ptsColDesc,
+.ptsBlock.ptsAlign_left .ptsBlockContent .ptsCol .ptsRows .ptsCell,
+.ptsBlock.ptsAlign_left .ptsBlockContent .ptsCol .ptsColFooter {
+	text-align: left;
+}
+.ptsBlock.ptsAlign_right p,
+.ptsBlock.ptsAlign_right .ptsBlockContent .ptsCol .ptsColHeader,
+.ptsBlock.ptsAlign_right .ptsBlockContent .ptsCol .ptsColDesc,
+.ptsBlock.ptsAlign_right .ptsBlockContent .ptsCol .ptsRows .ptsCell,
+.ptsBlock.ptsAlign_right .ptsBlockContent .ptsCol .ptsColFooter {
+	text-align: right;
+}
+.ptsBlock.ptsAlign_center p,
+.ptsBlock.ptsAlign_center .ptsBlockContent .ptsCol .ptsColHeader,
+.ptsBlock.ptsAlign_center .ptsBlockContent .ptsCol .ptsColDesc,
+.ptsBlock.ptsAlign_center .ptsBlockContent .ptsCol .ptsRows .ptsCell,
+.ptsBlock.ptsAlign_center .ptsBlockContent .ptsCol .ptsColFooter {
+	text-align: center;
+}
+.ptsCol .ptsElArea {
+	/*overflow: hidden;*/
+	position: relative;
+}
+.ptsContainer {
+	clear: both;
+	text-align: center;
+}
+/*Badges*/
+.ptsColBadge {
+	position: absolute;
+	z-index: 1002;
+	top: 0;
+	overflow: hidden;
+}
+.ptsColBadgeContent {
+	padding: 5px 10px;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+}
+.ptsColBadge.ptsColBadge-left .ptsColBadgeContent {
+	transform: rotate(-90deg);
+	border-bottom-left-radius: 5px;
+	transform-origin: left top;
+}
+.ptsColBadge.ptsColBadge-left-top .ptsColBadgeContent {
+	transform: rotate(-45deg);
+	transform-origin: center bottom;
+}
+.ptsColBadge.ptsColBadge-right-top .ptsColBadgeContent {
+	transform: rotate(45deg);
+	transform-origin: center bottom;
+}
+.ptsColBadge.ptsColBadge-right .ptsColBadgeContent {
+	transform: rotate(90deg);
+	border-bottom-right-radius: 5px;
+	transform-origin: right top;
+}
+.ptsColBadge.ptsColBadge-top .ptsColBadgeContent {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.ptsColBadge.ptsColBadge-top {
+	width: 100%;
+}
+.ptsColBadge.ptsColBadge-left,
+.ptsColBadge.ptsColBadge-left-top {
+	left: 0;
+
+}
+.ptsColBadge.ptsColBadge-right,
+.ptsColBadge.ptsColBadge-right-top {
+	right: 0;
+}
+.ptsElInput [data-icon]:before,
+.ptsElInput[data-icon]:before,
+.ptsBlock [data-icon]:before {
+	content: none;
+}
+.ptsBlock {
+
+}
+.ptsTableAlign_left.ptsBlock {
+	float: left;
+}
+.ptsTableAlign_right.ptsBlock {
+	float: right;
+}
+.ptsTableAlign_center.ptsBlock {
+	margin: 0 auto;
+}
+.ptsBlock .ptsBlockContent .ptsCol .ptsRows .ptsCell.ptsCellAlignLeft {
+	text-align: left;
+}
+.ptsBlock .ptsBlockContent .ptsCol .ptsRows .ptsCell.ptsCellAlignCenter {
+	text-align: center;
+}
+.ptsBlock .ptsBlockContent .ptsCol .ptsRows .ptsCell.ptsCellAlignRight {
+	text-align: right;
+}
+.ptsBlock .ptsCol .ptsColDesc .ptsEl .ptsPriceTitle {
+	white-space: nowrap;
+}
+.ptsContainer * {
+	border: none;
+	white-space: normal;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*content wrapper*/
+.ptsSwitchWrapper {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+/*button wrapper*/
+.ptsSwitchContent {
+	float: none;
+	vertical-align: middle;
+	position: relative;
+	border-radius: 35px;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-o-border-radius: 35px;
+	height: 54px;
+	display: inline-block;
+	background: #FFFFFF;
+	min-width: 350px;
+	width: auto;
+	text-align: center;
+}
+/*button*/
+.ptsSwitchButton {
+	cursor: pointer !important;
+	position: relative;
+	z-index: 1;
+	top: 3px;
+	font-family: Asap;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	width: 50%;
+	height: 46px;
+	line-height: 46px;
+}
+/*button selected*/
+.ptsSwitchButton.selected {
+	border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	-o-border-radius: 22px;
+}
+/*buttons background*/
+.ptsSwitchButtonBackground {
+	letter-spacing: normal !important;
+	outline: 0;
+	text-decoration: none;
+	text-transform: none;
+	cursor: pointer !important;
+	top: 3px;
+	position: absolute !important;
+	border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	-o-border-radius: 22px;
+	z-index: 0 !important;
+	transition: left ease-in-out .4s;
+	-moz-transition: left ease-in-out .4s;
+	-webkit-transition: left ease-in-out .4s;
+	-o-transition: left ease-in-out .4s;
+	font-family: Asap;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	width: 50%;
+	height: 46px;
+	line-height: 46px;
+	color: #FFFFFF;
+	left: 0.7%;
+}
+.ptsSwitchWrapper input[type=radio]:checked:before{
+	width: -2px!important;
+}
+.ptsBlock .ptsCell .ptsEl{
+	visibility: visible !important;
+}
+.ptsToggle > div{
+	visibility: visible!important;
+}
+.ptsShowSmooth{
+	display: none;
+}
+.ptsBlockMobile .ptsSwitchWrapper .ptsSwitchContent{
+	min-width: 250px;
+	max-width: 300px;
+}
+.ptsSwitchWrapper .ptsSwitchButton {
+	overflow: hidden;
+	max-width: 300px;
+}
+.ptsBlockMobile .ptsSwitchWrapper .ptsSwitchButton{
+	font-size: 14px;
+}
+.ptsSwitchWrapper .iradio_minimal{
+	margin-left: 12px;
+}
+.ptsCol[data-enb-schedule="1"] {
+	display: none;
+}
+.supsystic-content #ptsCanvas .ptsShowSmooth{
+    display: inline-block;
+}
+.ptsBlock .ptsActBtn {
+	text-align: center;
+}
